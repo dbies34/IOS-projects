@@ -9,7 +9,7 @@ import Foundation
 import UIKit
 
 class PlacesAPI {
-    static let API_KEY = "AIzaSyDGb8Jkkj8vOh0AAvcrSgbLz9RpuuJlCFc"
+    static let API_KEY = "XXXXXXXXXXXXXXXXXXXXXXX"
     
     // return a url that is used to get the places nearby json
     static func findNearbyPlacesUrl(latitude: Double, longitude: Double, keyword: String) -> URL{
